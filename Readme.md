@@ -2,7 +2,7 @@
 
 ## Progress
 
-This week I combined the Address, Date, and Student classes into a working program. main.cpp loads every line of students.csv into a vector of Student pointers (all on the heap), then shows a menu that can print all names, print all student data, and search by last name. I also did the blackbelt sorting: by last name, first name, or credit hours (most credits first). When the user quits, every Student is deleted. I ran it through valgrind and all heap blocks are freed with 0 errors.
+This week I combined the Address, Date, and Student classes into a working program. main.cpp loads every line of students.csv into a vector of Stuent pointers (all on the heap), then shows a menu that can print all names,  print all student data, and search by last name. I also did the blackbelt sorting by last name, first name, or credit hours (most credits first). When the user quits, every Student is deleted. I ran it through valgrind and all heap blocks are freed with 0 error
 
 ## UML
 
